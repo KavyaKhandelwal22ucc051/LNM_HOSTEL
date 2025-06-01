@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC27B0FF2DEC64FE006A955B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DC27B0FE2DEC64F2006A955B /* .gitignore */; };
+		DC5295BC2DE1BAB1000CD7D2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = DC5295BB2DE1BAB1000CD7D2 /* GoogleSignIn */; };
+		DC5295BE2DE1BAB1000CD7D2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DC5295BD2DE1BAB1000CD7D2 /* GoogleSignInSwift */; };
+		DCEA40CD2DDF2911001A708F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DCEA40CC2DDF2911001A708F /* FirebaseAuth */; };
+		DCEA40CF2DDF2911001A708F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DCEA40CE2DDF2911001A708F /* FirebaseFirestore */; };
+		DCEA40D12DDF2911001A708F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DCEA40D02DDF2911001A708F /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCAB45332DDBA3B0000787AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAB451A2DDBA3AD000787AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAB45212DDBA3AD000787AB;
+			remoteInfo = LNMHOSTEL;
+		};
+		DCAB453D2DDBA3B0000787AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAB451A2DDBA3AD000787AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAB45212DDBA3AD000787AB;
+			remoteInfo = LNMHOSTEL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC27B0FE2DEC64F2006A955B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DCAB45222DDBA3AD000787AB /* LNMHOSTEL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNMHOSTEL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAB45322DDBA3B0000787AB /* LNMHOSTELTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNMHOSTELTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAB453C2DDBA3B0000787AB /* LNMHOSTELUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNMHOSTELUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DCEECD442DE20994005321C0 /* Exceptions for "LNMHOSTEL" folder in "LNMHOSTEL" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DCAB45212DDBA3AD000787AB /* LNMHOSTEL */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DCAB45242DDBA3AD000787AB /* LNMHOSTEL */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DCEECD442DE20994005321C0 /* Exceptions for "LNMHOSTEL" folder in "LNMHOSTEL" target */,
+			);
+			path = LNMHOSTEL;
+			sourceTree = "<group>";
+		};
+		DCAB45352DDBA3B0000787AB /* LNMHOSTELTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LNMHOSTELTests;
+			sourceTree = "<group>";
+		};
+		DCAB453F2DDBA3B0000787AB /* LNMHOSTELUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LNMHOSTELUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAB451F2DDBA3AD000787AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5295BE2DE1BAB1000CD7D2 /* GoogleSignInSwift in Frameworks */,
+				DCEA40CD2DDF2911001A708F /* FirebaseAuth in Frameworks */,
+				DC5295BC2DE1BAB1000CD7D2 /* GoogleSignIn in Frameworks */,
+				DCEA40CF2DDF2911001A708F /* FirebaseFirestore in Frameworks */,
+				DCEA40D12DDF2911001A708F /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB452F2DDBA3B0000787AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB45392DDBA3B0000787AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAB45192DDBA3AD000787AB = {
+			isa = PBXGroup;
+			children = (
+				DC27B0FE2DEC64F2006A955B /* .gitignore */,
+				DCAB45242DDBA3AD000787AB /* LNMHOSTEL */,
+				DCAB45352DDBA3B0000787AB /* LNMHOSTELTests */,
+				DCAB453F2DDBA3B0000787AB /* LNMHOSTELUITests */,
+				DCAB45232DDBA3AD000787AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAB45232DDBA3AD000787AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB45222DDBA3AD000787AB /* LNMHOSTEL.app */,
+				DCAB45322DDBA3B0000787AB /* LNMHOSTELTests.xctest */,
+				DCAB453C2DDBA3B0000787AB /* LNMHOSTELUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAB45212DDBA3AD000787AB /* LNMHOSTEL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAB45462DDBA3B0000787AB /* Build configuration list for PBXNativeTarget "LNMHOSTEL" */;
+			buildPhases = (
+				DCAB451E2DDBA3AD000787AB /* Sources */,
+				DCAB451F2DDBA3AD000787AB /* Frameworks */,
+				DCAB45202DDBA3AD000787AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DCAB45242DDBA3AD000787AB /* LNMHOSTEL */,
+			);
+			name = LNMHOSTEL;
+			packageProductDependencies = (
+				DCEA40CC2DDF2911001A708F /* FirebaseAuth */,
+				DCEA40CE2DDF2911001A708F /* FirebaseFirestore */,
+				DCEA40D02DDF2911001A708F /* FirebaseStorage */,
+				DC5295BB2DE1BAB1000CD7D2 /* GoogleSignIn */,
+				DC5295BD2DE1BAB1000CD7D2 /* GoogleSignInSwift */,
+			);
+			productName = LNMHOSTEL;
+			productReference = DCAB45222DDBA3AD000787AB /* LNMHOSTEL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCAB45312DDBA3B0000787AB /* LNMHOSTELTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAB45492DDBA3B0000787AB /* Build configuration list for PBXNativeTarget "LNMHOSTELTests" */;
+			buildPhases = (
+				DCAB452E2DDBA3B0000787AB /* Sources */,
+				DCAB452F2DDBA3B0000787AB /* Frameworks */,
+				DCAB45302DDBA3B0000787AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAB45342DDBA3B0000787AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCAB45352DDBA3B0000787AB /* LNMHOSTELTests */,
+			);
+			name = LNMHOSTELTests;
+			packageProductDependencies = (
+			);
+			productName = LNMHOSTELTests;
+			productReference = DCAB45322DDBA3B0000787AB /* LNMHOSTELTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCAB453B2DDBA3B0000787AB /* LNMHOSTELUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAB454C2DDBA3B0000787AB /* Build configuration list for PBXNativeTarget "LNMHOSTELUITests" */;
+			buildPhases = (
+				DCAB45382DDBA3B0000787AB /* Sources */,
+				DCAB45392DDBA3B0000787AB /* Frameworks */,
+				DCAB453A2DDBA3B0000787AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAB453E2DDBA3B0000787AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCAB453F2DDBA3B0000787AB /* LNMHOSTELUITests */,
+			);
+			name = LNMHOSTELUITests;
+			packageProductDependencies = (
+			);
+			productName = LNMHOSTELUITests;
+			productReference = DCAB453C2DDBA3B0000787AB /* LNMHOSTELUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAB451A2DDBA3AD000787AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DCAB45212DDBA3AD000787AB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DCAB45312DDBA3B0000787AB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DCAB45212DDBA3AD000787AB;
+					};
+					DCAB453B2DDBA3B0000787AB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DCAB45212DDBA3AD000787AB;
+					};
+				};
+			};
+			buildConfigurationList = DCAB451D2DDBA3AD000787AB /* Build configuration list for PBXProject "LNMHOSTEL" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAB45192DDBA3AD000787AB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DCEA40CB2DDF2911001A708F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DC5295BA2DE1BAB1000CD7D2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DCAB45232DDBA3AD000787AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAB45212DDBA3AD000787AB /* LNMHOSTEL */,
+				DCAB45312DDBA3B0000787AB /* LNMHOSTELTests */,
+				DCAB453B2DDBA3B0000787AB /* LNMHOSTELUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAB45202DDBA3AD000787AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC27B0FF2DEC64FE006A955B /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB45302DDBA3B0000787AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB453A2DDBA3B0000787AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAB451E2DDBA3AD000787AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB452E2DDBA3B0000787AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB45382DDBA3B0000787AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCAB45342DDBA3B0000787AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAB45212DDBA3AD000787AB /* LNMHOSTEL */;
+			targetProxy = DCAB45332DDBA3B0000787AB /* PBXContainerItemProxy */;
+		};
+		DCAB453E2DDBA3B0000787AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAB45212DDBA3AD000787AB /* LNMHOSTEL */;
+			targetProxy = DCAB453D2DDBA3B0000787AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCAB45442DDBA3B0000787AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCAB45452DDBA3B0000787AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAB45472DDBA3B0000787AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LNMHOSTEL/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LNMHOSTEL/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.LNMHOSTEL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCAB45482DDBA3B0000787AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LNMHOSTEL/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LNMHOSTEL/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.LNMHOSTEL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCAB454A2DDBA3B0000787AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.LNMHOSTELTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LNMHOSTEL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LNMHOSTEL";
+			};
+			name = Debug;
+		};
+		DCAB454B2DDBA3B0000787AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.LNMHOSTELTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LNMHOSTEL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LNMHOSTEL";
+			};
+			name = Release;
+		};
+		DCAB454D2DDBA3B0000787AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.LNMHOSTELUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LNMHOSTEL;
+			};
+			name = Debug;
+		};
+		DCAB454E2DDBA3B0000787AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.LNMHOSTELUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LNMHOSTEL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAB451D2DDBA3AD000787AB /* Build configuration list for PBXProject "LNMHOSTEL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB45442DDBA3B0000787AB /* Debug */,
+				DCAB45452DDBA3B0000787AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAB45462DDBA3B0000787AB /* Build configuration list for PBXNativeTarget "LNMHOSTEL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB45472DDBA3B0000787AB /* Debug */,
+				DCAB45482DDBA3B0000787AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAB45492DDBA3B0000787AB /* Build configuration list for PBXNativeTarget "LNMHOSTELTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB454A2DDBA3B0000787AB /* Debug */,
+				DCAB454B2DDBA3B0000787AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAB454C2DDBA3B0000787AB /* Build configuration list for PBXNativeTarget "LNMHOSTELUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB454D2DDBA3B0000787AB /* Debug */,
+				DCAB454E2DDBA3B0000787AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC5295BA2DE1BAB1000CD7D2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		DCEA40CB2DDF2911001A708F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC5295BB2DE1BAB1000CD7D2 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC5295BA2DE1BAB1000CD7D2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		DC5295BD2DE1BAB1000CD7D2 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC5295BA2DE1BAB1000CD7D2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		DCEA40CC2DDF2911001A708F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCEA40CB2DDF2911001A708F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DCEA40CE2DDF2911001A708F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCEA40CB2DDF2911001A708F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DCEA40D02DDF2911001A708F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCEA40CB2DDF2911001A708F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DCAB451A2DDBA3AD000787AB /* Project object */;
+}
