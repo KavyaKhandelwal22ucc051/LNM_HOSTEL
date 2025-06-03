@@ -1,4 +1,4 @@
-<h1 align="center" id="title">LNM_HOSTEL</h1>
+<h1 align="center" id="title">LNM HOSTEL</h1>
 
 
 
